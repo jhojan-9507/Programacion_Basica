@@ -2,7 +2,7 @@ Algoritmo numero_par_impar
 	DEFINIR numer Como Entero
 	Escribir "ingrese el numero";
 	Leer numer
-	Si numer %2==0  Entonces
+	Si numer MOD 2==0  Entonces
 		Escribir "Es numero es par"			
 	SiNo
 		Escribir "Es numero es impar"
