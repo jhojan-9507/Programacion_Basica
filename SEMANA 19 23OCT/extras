@@ -1,1 +1,16 @@
-
+Algoritmo sin_titulo
+	DEFINIR horas,extras, sueldo Como Real
+	Escribir "ingrese las horas trabajadas";
+	Leer horas
+	Si horas >42 Entonces
+		extras=(horas-42)*(8838*1.5)
+		sueldo=8838*42
+		Escribir "El sueldo es :",sueldo," pesos"	
+		Escribir "las horas extras son :",extras," pesos"
+		Escribir "El sueldo total es :",sueldo + extras," pesos"			
+	SiNo
+		sueldo=horas*8838
+		Escribir "El sueldo es :",sueldo,"pesos"
+		
+	Fin Si
+FinAlgoritmo
