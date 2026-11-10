@@ -1,0 +1,13 @@
+Algoritmo suma
+Definir i,suma Como real
+Escribir "digite la cantidad de numeros a sumar"
+leer n
+
+	suma <- 0
+Para i <- 1 Hasta n hacer 
+suma<-suma + i
+  Escribir "vuelta: ",i
+ Escribir "la suma es;",suma
+FinPara
+ 
+ FinAlgoritmo
