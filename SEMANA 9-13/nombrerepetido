@@ -1,1 +1,17 @@
+Algoritmo nombrerepetido
+Definir i,suma Como real
+definir nombre como texto
+Escribir "digite su nombre"
+leer nombre
+Escribir "digite la cantidad de veces a repetir el nombre"
+leer n
+
+	
+Para i <- 1 Hasta n con paso 1 hacer 
+
+  Escribir nombre
+ 
+FinPara
+ 
+ FinAlgoritmo
 
