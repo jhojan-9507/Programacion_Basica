@@ -1,0 +1,16 @@
+Algoritmo NivelTanqueAgua
+	Definir nivel Como Real
+	
+	Escribir "Ingrese el porcentaje de llenado del tanque (0 a 100):"
+	Leer nivel
+	
+	Si nivel < 20 Entonces
+		Escribir "Nivel crítico"
+	SiNo
+		Si nivel < 60 Entonces
+			Escribir "Nivel medio"
+		SiNo
+			Escribir "Nivel alto"
+		FinSi
+	FinSi
+FinAlgoritmo
